@@ -15,8 +15,9 @@ const App = () => {
   }, []);
 
   return (
-    <div>
-      <h1>My DApp</h1>
+    <div className=" bg-slate-950  text-cyan-600">
+      <h1 className="text-3xl font-bold underline" >My DApp</h1>
+      
       <p>Account: {account}</p>
     </div>
   );
